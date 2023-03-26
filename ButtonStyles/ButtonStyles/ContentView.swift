@@ -13,11 +13,11 @@ struct ContentView: View {
            
             Button("+ Button +") {
                 
-                
             }
+            .frame(height: 55)
+            .frame(maxWidth: 155)
             
         }
-        //.padding()
     }
 }
 

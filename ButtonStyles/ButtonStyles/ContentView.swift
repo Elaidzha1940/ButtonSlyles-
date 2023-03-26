@@ -16,8 +16,31 @@ struct ContentView: View {
             }
             .frame(height: 55)
             .frame(maxWidth: 155)
+            .buttonStyle(.borderedProminent)
+            
+            Button("+ Button +") {
+                
+            }
+            .frame(height: 55)
+            .frame(maxWidth: 155)
+            .buttonStyle(.borderedProminent)
+            
+            Button("+ Button +") {
+                
+            }
+            .frame(height: 55)
+            .frame(maxWidth: 155)
+            .buttonStyle(.bordered)
+            
+            Button("+ Button +") {
+                
+            }
+            .frame(height: 55)
+            .frame(maxWidth: 155)
+            .buttonStyle(.automatic)
             
         }
+        .padding()
     }
 }
 

@@ -15,7 +15,12 @@ struct DisabledButton: View {
         
         VStack {
             
-            
+            Button {
+                // action
+            } label: {
+                Text(" + Button +")
+            }
+
         }
     }
 }

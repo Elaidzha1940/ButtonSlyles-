@@ -11,6 +11,7 @@
 		E4C244C129D067C400D56D13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C244C029D067C400D56D13 /* ContentView.swift */; };
 		E4C244C329D067C500D56D13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C244C229D067C500D56D13 /* Assets.xcassets */; };
 		E4C244C729D067C500D56D13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4C244C629D067C500D56D13 /* Preview Assets.xcassets */; };
+		E4C244D029D06F0D00D56D13 /* DisabledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C244CF29D06F0D00D56D13 /* DisabledButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E4C244C229D067C500D56D13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4C244C429D067C500D56D13 /* ButtonStyles.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ButtonStyles.entitlements; sourceTree = "<group>"; };
 		E4C244C629D067C500D56D13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4C244CF29D06F0D00D56D13 /* DisabledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisabledButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				E4C244BE29D067C400D56D13 /* ButtonStylesApp.swift */,
 				E4C244C029D067C400D56D13 /* ContentView.swift */,
+				E4C244CF29D06F0D00D56D13 /* DisabledButton.swift */,
 				E4C244C229D067C500D56D13 /* Assets.xcassets */,
 				E4C244C429D067C500D56D13 /* ButtonStyles.entitlements */,
 				E4C244C529D067C500D56D13 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4C244D029D06F0D00D56D13 /* DisabledButton.swift in Sources */,
 				E4C244C129D067C400D56D13 /* ContentView.swift in Sources */,
 				E4C244BF29D067C400D56D13 /* ButtonStylesApp.swift in Sources */,
 			);

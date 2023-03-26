@@ -37,7 +37,7 @@ struct ContentView: View {
             }
             .frame(height: 55)
             .frame(maxWidth: 155)
-            .buttonStyle(.automatic)
+            .buttonStyle(.borderless)
             
         }
         .padding()

@@ -16,12 +16,19 @@ struct DisabledButton: View {
         VStack {
             
           Button(action: {
-              Text("+ Button +")
+              Text("Tapped")
 
           }) {
-              Text("+ Button +")
+              Text("Press Me")
           }
-          .b
+          .disabled(buttonDisabled)
+          .padding()
+            
+            Button(action: {
+                buttonDisabled.toggle()
+            }) {
+                Text("tap me to disabled")
+            }
 
         }
     }

@@ -19,7 +19,7 @@ struct DisabledButton: View {
               Text("Tapped")
           }) {
               Text("Press Me")
-                  .background(Color.gray)
+                 // .background(Color.gray)
           }
           .disabled(buttonDisabled)
           .padding()

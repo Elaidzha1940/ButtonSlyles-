@@ -17,9 +17,6 @@ struct DisabledButton: View {
             
           Button(action: {
               Text("Tapped")
-//                  .frame(width: 155, height: 55)
-//                  .background(Color.blue)
-
           }) {
               Text("Press Me")
                   .background(Color.gray)
